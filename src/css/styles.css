@@ -116,6 +116,14 @@ body {
     align-items: center;
 }
 
+.nav-icons {
+    fill: #B6BAC7;
+}
+
+.nav-icons:hover {
+    fill: #6188FF;
+}
+
 .header_wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -165,8 +173,15 @@ body {
     margin-left: 361px;
 }
 
+/*.link-centered {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
 .social_link {
     margin-right: 35px;
+    
 }
 
 .social_link:last-child {
