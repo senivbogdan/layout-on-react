@@ -71,7 +71,258 @@
        url('../fonts/roboto-v30-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+html {
+  box-sizing: border-box;
+}
+*,*::before, *::after {
+  box-sizing: inherit;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 29px;
+  letter-spacing: 0.03em;
+  /*max-width: 1440px;*/
+  margin: 0 auto;
+}
 
 .App {
-  text-align: center;
+    text-align: center;
+    /*max-width: 1440px;*/
+    margin: 0 auto;
 }
+
+.header {
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #D8E3FE;
+}
+
+.logo-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+    color: #697CA6;
+}
+
+.header_nav {
+    margin-left: 73px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.header_logo {*/
+/*    height: 26px;*/
+/*    width: 26px;*/
+/*}*/
+
+.header_item {
+    margin-right: 42px;
+}
+
+.header_item:last-child {
+    margin-right: 0;
+}
+
+.header_item-link {
+    text-decoration: none;
+    color: #697CA6;
+}
+
+.header_item-link:hover, .header_item-link:active, .header_item-link:focus  {
+    color: #5E81FE;
+}
+
+.header_item-link:visited {
+    color: #697CA6;
+}
+
+.social-networks {
+    margin-left: 361px;
+}
+
+.social_link {
+    margin-right: 35px;
+}
+
+.social_link:last-child {
+    margin-right: 44px;
+}
+
+
+.button-start {
+    width: 113px;
+    height: 43px;
+    background: #D2E1FF;
+    color: #3A79FF;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    border: 0;
+    /*padding: 13px 15px;*/
+}
+
+.button-start:hover, .button-start:active ,.button-start:focus {
+    opacity: 0.65;
+}
+
+.intro {
+    height: 670px;
+    background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
+}
+
+.intro-wrapper {
+    max-width: 1440px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 0 auto;
+}
+
+.intro-h4 {
+    margin-top: 92px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3D4F9F;
+    margin-bottom: 16px;
+}
+
+.intro-section_title {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 60px;
+    color: #3D4F9F;
+    margin-bottom: 28px;
+    width: 580px;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.intro-text {
+    max-width: 508px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #8D96BD;
+}
+
+.vector {
+    height: 347px;
+    position: absolute;
+    z-index: 4;
+    bottom: 0;
+    right: 0;
+}
+
+.lines {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    bottom: 42px;
+}
+
+.circle-one {
+    position: absolute;
+    bottom: 15px;
+    left: 100px;
+    z-index: 2;
+}
+
+.circle-two {
+    position: absolute;
+    z-index: 2;
+    left: 508px;
+    bottom: 56px;
+}
+
+.circle-two-message {
+    position: absolute;
+    z-index: 2;
+    left: 455px;
+    bottom: 56px;
+}
+
+.circle-tree {
+    z-index: 5;
+    position: absolute;
+    right: 509px;
+    top: 403px;
+}
+
+.circle-four {
+    z-index: 5;
+    position: absolute;
+    bottom: 144px;
+    right: 101px;
+}
+
+.play-button {
+
+}
+
+.clouds {
+    position: absolute;
+    left: 0;
+}
+
+.companies-div {
+    height: 145px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 58px 276px;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-margin {
+    margin-right: 76px;
+}
+
+.companies {
+    margin-right: 76px;
+    fill: #D6DAE5;
+}
+
+.companies:hover {
+    fill:  #5982E7;
+}
+
