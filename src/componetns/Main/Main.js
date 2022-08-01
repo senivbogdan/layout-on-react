@@ -13,8 +13,9 @@ import play from "../../img/svg/play-butt-small.svg"
 import notebook from "../../img/notebook.png"
 import smallPhone from "../../img/small-phone.png"
 import bigPhone from "../../img/big-phone.png"
-
-
+import cloudsAboutApp from "../../img/clouds-about-app.png"
+import speedometer from "../../img/speedometer.png"
+import users from "../../img/users.png"
 
 const Main = () => {
     return (
@@ -96,6 +97,99 @@ const Main = () => {
             </section>
 
             {/*app end*/}
+
+            <section className="about-app_section">
+                <div className="wrapper-about-app">
+                    <h4 className="intro-h4-about-us">
+                        ABOUT US
+                    </h4>
+                    <h3 className="about-app-title">
+                        <strong className="strong">Read about our app</strong>
+                    </h3>
+                    <div className="about-app-text">
+                        <div className="content-div">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="69" height="69" viewBox="0 0 69 69" fill="none">
+                                <circle cx="34.5" cy="34.5" r="34.5" fill="#F1F5FF"/>
+                                <path d="M27 31.8727V43H31.4211L34 41L36.5789 43H41V31.8727L34 26L27 31.8727Z" stroke="#4074F8" stroke-width="2.5"/>
+                            </svg>
+                            <h5 className="title-about-app">Overview</h5>
+                            <p className="text-about_app">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.</p>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="1" viewBox="0 0 28 1" fill="none">
+                            <line y1="0.5" x2="28" y2="0.5" stroke="#DAE4FE"/>
+                        </svg>
+                        <div className="content-div">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="69" height="69" viewBox="0 0 69 69" fill="none">
+                                <circle cx="34.5" cy="34.5" r="34.5" fill="#F1F5FF"/>
+                                <path d="M40.7544 42H33.0877H30.1994H23V31.9496V28H33.0877L34.7018 31.1613H40.7544V32.9677M40.7544 42L46 32.9677H40.7544M40.7544 42V32.9677" stroke="#4074F8" stroke-width="2.5"/>
+                            </svg>
+                            <h5 className="title-about-app">Files</h5>
+                            <p className="text-about_app">No vim nulla vitae intellegat. Ei enim error ius, solet atomorum conceptam ex has.</p>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="1" viewBox="0 0 28 1" fill="none">
+                            <line y1="0.5" x2="28" y2="0.5" stroke="#DAE4FE"/>
+                        </svg>
+                        <div className="content-div">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="69" height="69" viewBox="0 0 69 69" fill="none">
+                                <circle cx="34.5" cy="34.5" r="34.5" fill="#F1F5FF"/>
+                                <path d="M26 27V31.9496V38.5H28.2811L29.5 42L33 38.5H37.7018H43.7544V32.9677V27H41H36.5H26Z" stroke="#4074F8" stroke-width="2.5"/>
+                            </svg>
+                            <h5 className="title-about-app">Meeting chats</h5>
+                            <p className="text-about_app">Vim ne tacimates neglegentur. Erat diceret omittam at est.</p>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="1" viewBox="0 0 28 1" fill="none">
+                            <line y1="0.5" x2="28" y2="0.5" stroke="#DAE4FE"/>
+                        </svg>
+                        <div className="content-div">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="69" height="69" viewBox="0 0 69 69" fill="none">
+                                <circle cx="34.5" cy="34.5" r="34.5" fill="#F1F5FF"/>
+                                <path d="M26 36.9677V42.5H28.2811H33H37.7018H43.2544V36.9677M30.7544 30L34.7544 27M38.7544 30L34.7544 27M34.7544 27V37.5" stroke="#4074F8" stroke-width="2.5"/>
+                            </svg>
+                            <h5 className="title-about-app">Save events</h5>
+                            <p className="text-about_app">Nisl idque mel ea, nominati <voluptatum className=""></voluptatum></p>
+                        </div>
+                    </div>
+                    <div className="about-app_buttons">
+                        <button className="read-more-button">
+                            <strong className="strong">Read more</strong>
+                        </button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="1" viewBox="0 0 15 1" fill="none">
+                            <line y1="0.5" x2="15" y2="0.5" stroke="#DAE4FE"/>
+                        </svg>
+                        <p className="or">OR</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="1" viewBox="0 0 15 1" fill="none">
+                            <line y1="0.5" x2="15" y2="0.5" stroke="#DAE4FE"/>
+                        </svg>
+                        <button className="started-button">
+                            <strong className="strong">Get started</strong>
+                        </button>
+                    </div>
+                    <img src={cloudsAboutApp} alt="" className="clouds-about-app"/>
+                </div>
+            </section>
+            {/*statistics start*/}
+            <div className="statistics">
+                <div className="wrapper-statistics">
+                    <div className="percent-div">
+                        <div className="percent-div-text">
+                                <img src={speedometer} alt=""/>
+                                <p className="percent-div_p">89%</p>
+                                <p className="percent-div_text">
+                                    Customers who have increased their productivity
+                                </p>
+                        </div>
+                    </div>
+                    <div className="users-div">
+                        <div className="users-div-text">
+                            <img src={users} alt=""/>
+                            <p className="users-div_p">3123</p>
+                            <p className="users-div_text">
+                                Users who have used our application                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/*statistics start*/}
 
         </main>
     );

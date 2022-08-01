@@ -361,7 +361,7 @@ body {
     height: 776px;
     background: #F5F8FF;;
     margin-top: 145px;
-    padding: 170px 48px 170px 451px;
+    padding: 170px 48px 170px 400px;
 }
 
 .text-about_plan {
@@ -443,17 +443,233 @@ body {
 .notebook {
     position: absolute;
     top: -330px;
-    right: 100px;
+    right: 80px;
 }
 
 .small-phone {
     position: absolute;
     top: -230px;
-    right: 655px;
+    right: 625px;
 }
 
 .big-phone {
     position: absolute;
     bottom: -230px;
-    right: 125px;
+    right: 145px;
 }
+
+/*app end*/
+
+/*about-app start*/
+
+.about-app_section {
+    height: 885px;
+    width: 100%;
+    background: white;
+    /*position: relative;*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    /*padding: 141px 114px 171px 126px;*/
+}
+
+.wrapper-about-app {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 141px 114px 171px 126px;
+}
+
+.intro-h4-about-us {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3D4F9F;
+    padding-bottom: 20px;
+}
+
+.about-app-title{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #3D4F9F;
+    margin-bottom: 92px;
+}
+
+.about-app-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-div {
+    width: 140px;
+    height: 255px;
+}
+
+.title-about-app {
+    margin-top: 25px;
+    margin-bottom: 28px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    color: #4074F8;
+}
+
+.text-about_app {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 19px;
+    text-align: center;
+    color: #ADB3CB;
+}
+
+.about-app_buttons {
+    margin-top: 92px;
+    width: 337px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.or {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 19px;
+    text-align: center;
+    color: #ADB3CB;
+}
+
+.read-more-button {
+    width: 113px;
+    background: #FFD7D7;
+    color: #D43F3F;
+    border-radius: 2px;
+    padding: 13px 16px;
+    border: 0;
+}
+
+.started-button {
+    width: 113px;
+    background: #D2E1FF;
+    border-radius: 2px;
+    padding: 13px 16px;
+    color: #3A79FF;
+    border: 0;
+}
+
+.clouds-about-app {
+    position: absolute;
+    top: 143px;
+    right: 70px;
+}
+/*about-app end*/
+
+
+/*statistics start*/
+
+.statistics {
+    width: 100%;
+    height: 342px;
+    font-family: 'Quicksand';
+    font-style: normal;
+}
+
+.wrapper-statistics {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.percent-div {
+    width: 50%;
+    height: 342px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: space-between;
+    padding: 66px 90px 66px 370px;
+    background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+}
+
+.percent-div_p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 83px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.percent-div_text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.users-div {
+    width: 50%;
+    height: 342px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+    padding: 66px 370px 66px 90px;
+    background: linear-gradient(101.48deg, #E9EFFF 41.56%, #E0E9FF 81.53%);
+}
+
+.users-div-text {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*text-align: left;*/
+    /*justify-content: space-between;*/
+}
+
+.users-div_p {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 83px;
+    letter-spacing: 0.03em;
+    color: #5E80FF;
+    text-align: left;
+}
+
+.users-div_text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+    color: #5E80FF;
+}
+/*statistics end*/
