@@ -16,6 +16,7 @@ import bigPhone from "../../img/big-phone.png"
 import cloudsAboutApp from "../../img/clouds-about-app.png"
 import speedometer from "../../img/speedometer.png"
 import users from "../../img/users.png"
+import Slides from "../Slides/Slides";
 
 const Main = () => {
     return (
@@ -191,6 +192,13 @@ const Main = () => {
             </div>
             {/*statistics start*/}
 
+            <div className="resources">
+                <div className="resources-wrapper">
+                    <h4 className="resources-h4">OUR RESOURCES</h4>
+                    <h3 className="resources-title">Start reading our blog</h3>
+                    <Slides/>
+                </div>
+            </div>
         </main>
     );
 };
