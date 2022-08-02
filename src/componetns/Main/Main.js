@@ -184,7 +184,7 @@ const Main = () => {
                             <img src={users} alt=""/>
                             <p className="users-div_p">3123</p>
                             <p className="users-div_text">
-                                Users who have used our application                            </p>
+                                Users who have used our application</p>
                         </div>
                     </div>
                 </div>
